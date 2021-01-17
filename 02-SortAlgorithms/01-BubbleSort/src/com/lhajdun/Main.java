@@ -2,7 +2,6 @@ package com.lhajdun;
 
 public class Main {
 
-
     /* *
      *
      * Bubble Sort:
@@ -25,10 +24,8 @@ public class Main {
         }
 
         for (int i = 0; i < intArray.length; i++) {
-//            System.out.println("intArray[" + i + "] = " + intArray[i]);
             System.out.printf("intArray[%d] = %d%n", i, intArray[i]);
         }
-
 
     }
 
