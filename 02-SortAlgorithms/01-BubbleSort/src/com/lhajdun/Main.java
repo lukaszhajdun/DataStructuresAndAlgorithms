@@ -23,9 +23,7 @@ public class Main {
             }
         }
 
-        for (int i = 0; i < intArray.length; i++) {
-            System.out.printf("intArray[%d] = %d%n", i, intArray[i]);
-        }
+        printArray(intArray);
 
     }
 
@@ -36,6 +34,12 @@ public class Main {
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
+    }
+
+    public static void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.printf("intArray[%d] = %d%n", i, array[i]);
+        }
     }
 }
 
