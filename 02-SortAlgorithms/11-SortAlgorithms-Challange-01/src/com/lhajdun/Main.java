@@ -28,8 +28,7 @@ public class Main {
     }
 
     public static void merge(int[] inputArray, int start, int mid, int end) {
-        // Optimization (all left partition elements are sorted and the largest element is smaller or equal to
-        // the smallest element on right partition - this elements also are sorted, so input array is already sorted)
+
         if (inputArray[mid - 1] >= inputArray[mid]) {
             return;
         }
